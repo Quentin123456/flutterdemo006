@@ -1,5 +1,5 @@
 import 'package:json_annotation/json_annotation.dart';
-import '../../find_page/model/Focus_Data_entity.dart';
+import '../../find_page/model/focus_data_entity.dart';
 part 'Topic_ItemList.g.dart';
 
 @JsonSerializable(explicitToJson: true)

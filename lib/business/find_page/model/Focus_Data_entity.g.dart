@@ -1,6 +1,6 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'Focus_Data_entity.dart';
+part of 'focus_data_entity.dart';
 
 // **************************************************************************
 // JsonSerializableGenerator

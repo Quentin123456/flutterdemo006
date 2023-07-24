@@ -16,7 +16,7 @@ import '../../model/upload_img_entity.dart';
 import '../../res/colors.dart';
 import '../../res/style.dart';
 import '../../utils/keyboard_util.dart';
-import 'model/Feedback_detail_list_entity.dart';
+import 'model/feedback_detail_list_entity.dart';
 import 'model/feedback_list_item_entity.dart';
 
 //我的反馈页面UI

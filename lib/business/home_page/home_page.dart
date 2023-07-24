@@ -9,8 +9,8 @@ import '../../http/apiservice/api_service.dart';
 import '../../route/router_utils.dart';
 import '../../utils/log_utils.dart';
 import '../../widget/pull_smart_refresher.dart';
-import '../find_page/model/ItemList.dart';
-import 'model/Feed_entity.dart';
+import '../home_page/model/itemList.dart';
+import 'model/feed_entity.dart';
 
 class HomePage extends BaseStatefulWidget<HomeController> {
   const HomePage({Key? key}) : super(key: key);

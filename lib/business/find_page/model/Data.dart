@@ -1,28 +1,13 @@
-import 'Label.dart';
+// 1、引入json_annotation.dart
+import 'package:json_annotation/json_annotation.dart';
+import 'label.dart';
+// 2、这里手动输入：data.g.dart文件将在我们运行生成命令后自动生成
+part 'data.g.dart';
+// 3、这个标注是告诉生成器，这个类是需要生成Model类的
+@JsonSerializable(explicitToJson: true)
 
 class Data {
-  Data({
-      this.dataType, 
-      this.id, 
-      this.title, 
-      this.description, 
-      this.image, 
-      this.actionUrl, 
-      this.shade, 
-      this.label, 
-      this.autoPlay,});
-
-  Data.fromJson(dynamic json) {
-    dataType = json['dataType'];
-    id = json['id'];
-    title = json['title'];
-    description = json['description'];
-    image = json['image'];
-    actionUrl = json['actionUrl'];
-    shade = json['shade'];
-    label = json['label'] != null ? Label.fromJson(json['label']) : null;
-    autoPlay = json['autoPlay'];
-  }
+  // 4、定义网络数据json返回属性值
   String? dataType;
   int? id;
   String? title;
@@ -33,20 +18,11 @@ class Data {
   Label? label;
   bool? autoPlay;
 
-  Map<String, dynamic> toJson() {
-    final map = <String, dynamic>{};
-    map['dataType'] = dataType;
-    map['id'] = id;
-    map['title'] = title;
-    map['description'] = description;
-    map['image'] = image;
-    map['actionUrl'] = actionUrl;
-    map['shade'] = shade;
-    if (label != null) {
-      map['label'] = label?.toJson();
-    }
-    map['autoPlay'] = autoPlay;
-    return map;
-  }
-
+  // 5、必须的方法
+  Data(this.dataType, this.id, this.title, this.description, this.image, this.actionUrl, this.shade, this.label, this.autoPlay);
+  // 6、必须的代码：代码格式是固定的，将下面的“Data”关键词替换为你定义的model类名称即可
+  // 反序列化
+  factory Data.fromJson(Map<String, dynamic> json) => _$DataFromJson(json);
+  // 序列化
+  Map<String, dynamic> toJson() => _$DataToJson(this);
 }

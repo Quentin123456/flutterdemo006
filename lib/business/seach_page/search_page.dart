@@ -6,8 +6,8 @@ import '../../base/pageWidget/base_stateless_widget.dart';
 import '../../http/apiservice/api_service.dart';
 import '../../res/colors.dart';
 import '../../utils/keyboard_util.dart';
-import '../find_page/model/Focus_Entity.dart';
-import '../find_page/model/Focus_Item_Entity.dart';
+import '../find_page/model/focus_entity.dart';
+import '../find_page/model/focus_item_entity.dart';
 import '../hot_page/widget/item_rank_widget.dart';
 
 ///搜索页面

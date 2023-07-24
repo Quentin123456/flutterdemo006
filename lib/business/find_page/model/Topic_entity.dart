@@ -1,6 +1,6 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'Topic_data_entity.dart';
-part 'Topic_entity.g.dart';
+import 'topic_data_entity.dart';
+part 'topic_entity.g.dart';
 
 @JsonSerializable(explicitToJson: true)
 class TopicEntity {

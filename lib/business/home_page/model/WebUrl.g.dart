@@ -1,14 +1,14 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'WebUrl.dart';
+part of 'webUrl.dart';
 
 // **************************************************************************
 // JsonSerializableGenerator
 // **************************************************************************
 
 WebUrl _$WebUrlFromJson(Map<String, dynamic> json) => WebUrl(
-      raw: json['raw'] as String?,
-      forWeibo: json['forWeibo'] as String?,
+      json['raw'] as String?,
+      json['forWeibo'] as String?,
     );
 
 Map<String, dynamic> _$WebUrlToJson(WebUrl instance) => <String, dynamic>{

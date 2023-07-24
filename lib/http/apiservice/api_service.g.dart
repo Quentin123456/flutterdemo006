@@ -31,7 +31,7 @@ class _ApiService implements ApiService {
       r'num': pageIndex,
     };
     final _headers = <String, dynamic>{};
-    const Map<String, dynamic>? _data = null;
+    final Map<String, dynamic>? _data = null;
     final _result = await _dio
         .fetch<Map<String, dynamic>>(_setStreamType<FeedEntity>(Options(
       method: 'GET',

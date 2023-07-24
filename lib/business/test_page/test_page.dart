@@ -7,8 +7,8 @@ import '../../http/apiservice/api_service.dart';
 import '../../route/router_utils.dart';
 import '../../utils/log_utils.dart';
 import '../../widget/pull_smart_refresher.dart';
-import '../find_page/model/ItemList.dart';
-import '../home_page/model/Feed_entity.dart';
+import '../home_page/model/itemList.dart';
+import '../home_page/model/feed_entity.dart';
 import '../home_page/widget/item_home_widget.dart';
 
 ///测试用来跳转多次页面，使用Tag生成Controller，每次产生独立对象---具体类似购物车，视频播放详情等页面多次跳转业务

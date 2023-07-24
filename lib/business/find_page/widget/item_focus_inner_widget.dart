@@ -7,7 +7,7 @@ import '../../../res/colors.dart';
 import '../../../res/style.dart';
 import '../../../route/routes.dart';
 import '../../../widget/base_network_image.dart';
-import '../../home_page/model/ItemList.dart';
+import '../../home_page/model/itemList.dart';
 
 class ItemFocusInnerWidget extends CommonStatelessWidget {
   ItemList? itemData;

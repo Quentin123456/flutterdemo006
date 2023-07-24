@@ -1,8 +1,8 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'ItemList.dart';
-import 'Follow.dart';
+import 'itemList.dart';
+import 'follow.dart';
 
-part 'Header_entity.g.dart';
+part 'header_entity.g.dart';
 @JsonSerializable(explicitToJson: true)
 class HeaderEntity {
   HeaderEntity({

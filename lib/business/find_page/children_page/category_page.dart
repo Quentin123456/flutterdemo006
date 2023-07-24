@@ -6,7 +6,7 @@ import '../../../base/pageWidget/base_stateless_widget.dart';
 import '../../../http/apiservice/api_service.dart';
 import '../../../route/router_utils.dart';
 import '../../../route/routes.dart';
-import '../model/Type_entity.dart';
+import '../model/type_entity.dart';
 import '../widget/item_category_widget.dart';
 
 ///分类页面

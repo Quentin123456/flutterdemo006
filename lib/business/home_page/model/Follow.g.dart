@@ -1,15 +1,15 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'Follow.dart';
+part of 'follow.dart';
 
 // **************************************************************************
 // JsonSerializableGenerator
 // **************************************************************************
 
 Follow _$FollowFromJson(Map<String, dynamic> json) => Follow(
-      itemType: json['itemType'] as String?,
-      itemId: json['itemId'] as int?,
-      followed: json['followed'] as bool?,
+      json['itemType'] as String?,
+      json['itemId'] as int?,
+      json['followed'] as bool?,
     );
 
 Map<String, dynamic> _$FollowToJson(Follow instance) => <String, dynamic>{

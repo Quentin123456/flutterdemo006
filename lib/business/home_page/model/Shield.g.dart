@@ -1,15 +1,15 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'Shield.dart';
+part of 'shield.dart';
 
 // **************************************************************************
 // JsonSerializableGenerator
 // **************************************************************************
 
 Shield _$ShieldFromJson(Map<String, dynamic> json) => Shield(
-      itemType: json['itemType'] as String?,
-      itemId: json['itemId'] as int?,
-      shielded: json['shielded'] as bool?,
+      json['itemType'] as String?,
+      json['itemId'] as int?,
+      json['shielded'] as bool?,
     );
 
 Map<String, dynamic> _$ShieldToJson(Shield instance) => <String, dynamic>{

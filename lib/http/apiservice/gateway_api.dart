@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:retrofit/http.dart';
-import '../../business/complain/model/Feedback_detail_list_entity.dart';
+import '../../business/complain/model/feedback_detail_list_entity.dart';
 import '../../business/complain/model/my_feedback_entity.dart';
 import '../../constant/http_url.dart';
 import '../dio_client.dart';

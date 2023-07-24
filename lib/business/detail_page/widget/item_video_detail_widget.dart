@@ -4,7 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../../../base/pageWidget/common_stateless_widget.dart';
 import '../../../res/colors.dart';
 import '../../../res/style.dart';
-import '../../find_page/model/Focus_Item_Entity.dart';
+import '../../find_page/model/focus_item_entity.dart';
 
 // ignore: must_be_immutable
 class ItemVideoDetailWidget extends CommonStatelessWidget {

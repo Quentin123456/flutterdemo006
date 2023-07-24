@@ -1,16 +1,16 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'Consumption.dart';
+part of 'consumption.dart';
 
 // **************************************************************************
 // JsonSerializableGenerator
 // **************************************************************************
 
 Consumption _$ConsumptionFromJson(Map<String, dynamic> json) => Consumption(
-      collectionCount: json['collectionCount'] as int?,
-      shareCount: json['shareCount'] as int?,
-      replyCount: json['replyCount'] as int?,
-      realCollectionCount: json['realCollectionCount'] as int?,
+      json['collectionCount'] as int?,
+      json['shareCount'] as int?,
+      json['replyCount'] as int?,
+      json['realCollectionCount'] as int?,
     );
 
 Map<String, dynamic> _$ConsumptionToJson(Consumption instance) =>

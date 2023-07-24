@@ -4,7 +4,7 @@ import '../../../base/pageWidget/common_stateless_widget.dart';
 import '../../../res/colors.dart';
 import '../../../res/style.dart';
 import '../../../widget/base_network_image.dart';
-import '../model/Focus_Item_Entity.dart';
+import '../model/focus_item_entity.dart';
 import 'item_focus_inner_widget.dart';
 
 class ItemFocusOuterWidget extends CommonStatelessWidget {

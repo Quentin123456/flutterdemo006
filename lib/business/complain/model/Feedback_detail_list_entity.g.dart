@@ -1,6 +1,6 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'Feedback_detail_list_entity.dart';
+part of 'feedback_detail_list_entity.dart';
 
 // **************************************************************************
 // JsonSerializableGenerator
@@ -9,7 +9,7 @@ part of 'Feedback_detail_list_entity.dart';
 FeedbackDetailListEntity _$FeedbackDetailListEntityFromJson(
         Map<String, dynamic> json) =>
     FeedbackDetailListEntity(
-      list: (json['list'] as List<dynamic>?)
+      (json['list'] as List<dynamic>?)
           ?.map(
               (e) => FeedbackListItemEntity.fromJson(e as Map<String, dynamic>))
           .toList(),

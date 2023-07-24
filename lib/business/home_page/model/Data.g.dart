@@ -1,50 +1,50 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'Data.dart';
+part of 'data.dart';
 
 // **************************************************************************
 // JsonSerializableGenerator
 // **************************************************************************
 
 Data _$DataFromJson(Map<String, dynamic> json) => Data(
-      dataType: json['dataType'] as String?,
-      id: json['id'] as int?,
-      title: json['title'] as String?,
-      description: json['description'] as String?,
-      library: json['library'] as String?,
-      consumption: json['consumption'] == null
+      json['dataType'] as String?,
+      json['id'] as int?,
+      json['title'] as String?,
+      json['description'] as String?,
+      json['library'] as String?,
+      json['consumption'] == null
           ? null
           : Consumption.fromJson(json['consumption'] as Map<String, dynamic>),
-      resourceType: json['resourceType'] as String?,
-      provider: json['provider'] == null
+      json['resourceType'] as String?,
+      json['provider'] == null
           ? null
           : Provider.fromJson(json['provider'] as Map<String, dynamic>),
-      category: json['category'] as String?,
-      author: json['author'] == null
+      json['category'] as String?,
+      json['author'] == null
           ? null
           : Author.fromJson(json['author'] as Map<String, dynamic>),
-      cover: json['cover'] == null
+      json['cover'] == null
           ? null
           : Cover.fromJson(json['cover'] as Map<String, dynamic>),
-      playUrl: json['playUrl'] as String?,
-      duration: json['duration'] as int?,
-      webUrl: json['webUrl'] == null
+      json['playUrl'] as String?,
+      json['duration'] as int?,
+      json['webUrl'] == null
           ? null
           : WebUrl.fromJson(json['webUrl'] as Map<String, dynamic>),
-      releaseTime: json['releaseTime'] as int?,
-      ad: json['ad'] as bool?,
-      type: json['type'] as String?,
-      descriptionPgc: json['descriptionPgc'] as String?,
-      remark: json['remark'] as String?,
-      ifLimitVideo: json['ifLimitVideo'] as bool?,
-      searchWeight: json['searchWeight'] as int?,
-      idx: json['idx'] as int?,
-      date: json['date'] as int?,
-      descriptionEditor: json['descriptionEditor'] as String?,
-      collected: json['collected'] as bool?,
-      reallyCollected: json['reallyCollected'] as bool?,
-      played: json['played'] as bool?,
-      image: json['image'] as String?,
+      json['releaseTime'] as int?,
+      json['ad'] as bool?,
+      json['type'] as String?,
+      json['descriptionPgc'] as String?,
+      json['remark'] as String?,
+      json['ifLimitVideo'] as bool?,
+      json['searchWeight'] as int?,
+      json['idx'] as int?,
+      json['date'] as int?,
+      json['descriptionEditor'] as String?,
+      json['collected'] as bool?,
+      json['reallyCollected'] as bool?,
+      json['played'] as bool?,
+      json['image'] as String?,
     );
 
 Map<String, dynamic> _$DataToJson(Data instance) => <String, dynamic>{

@@ -1,9 +1,9 @@
 import 'package:json_annotation/json_annotation.dart';
-import '../../home_page/model/Author.dart';
-import '../../home_page/model/Cover.dart';
-import '../../home_page/model/ItemList.dart';
-import 'Header_entity.dart';
-part 'Focus_Data_entity.g.dart';
+import '../../home_page/model/author.dart';
+import '../../home_page/model/cover.dart';
+import '../../home_page/model/itemList.dart';
+import 'header_entity.dart';
+part 'focus_data_entity.g.dart';
 
 @JsonSerializable(explicitToJson: true)
 class FocusDataEntity {

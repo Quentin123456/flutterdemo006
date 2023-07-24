@@ -1,6 +1,5 @@
 import 'package:json_annotation/json_annotation.dart';
-
-part 'Follow.g.dart';
+part 'follow.g.dart';
 
 @JsonSerializable()
 class Follow {

@@ -7,8 +7,8 @@ import '../../base/pageWidget/base_stateless_widget.dart';
 import '../../http/apiservice/api_service.dart';
 import '../../widget/base_network_image.dart';
 import '../../widget/pull_smart_refresher.dart';
-import '../find_page/model/Focus_Entity.dart';
-import '../find_page/model/Focus_Item_Entity.dart';
+import '../find_page/model/focus_entity.dart';
+import '../find_page/model/focus_item_entity.dart';
 import '../hot_page/widget/item_rank_widget.dart';
 
 ///分类详情页面

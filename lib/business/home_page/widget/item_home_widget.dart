@@ -9,7 +9,7 @@ import '../../../res/style.dart';
 import '../../../route/router_utils.dart';
 import '../../../route/routes.dart';
 import '../../../widget/base_network_image.dart';
-import '../../find_page/model/ItemList.dart';
+import '../../home_page/model/itemList.dart';
 
 class ItemHomeWidget extends CommonStatelessWidget {
   ItemList itemData;

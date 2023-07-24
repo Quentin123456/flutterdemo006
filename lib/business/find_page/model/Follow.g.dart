@@ -1,6 +1,6 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'Follow.dart';
+part of 'follow.dart';
 
 // **************************************************************************
 // JsonSerializableGenerator

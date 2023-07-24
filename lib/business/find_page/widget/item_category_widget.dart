@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../../../base/pageWidget/common_stateless_widget.dart';
 import '../../../res/colors.dart';
-import '../model/Type_entity.dart';
+import '../model/type_entity.dart';
 
 // ignore: must_be_immutable
 class ItemCategoryWidget extends CommonStatelessWidget {

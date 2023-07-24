@@ -7,7 +7,7 @@ import '../../../res/colors.dart';
 import '../../../res/style.dart';
 import '../../../route/routes.dart';
 import '../../../widget/base_network_image.dart';
-import '../../find_page/model/Focus_Item_Entity.dart';
+import '../../find_page/model/focus_item_entity.dart';
 
 class ItemRankWidget extends CommonStatelessWidget {
   FocusItemEntity itemData;

@@ -9,8 +9,8 @@ import '../../../route/routes.dart';
 import '../../../utils/log_utils.dart';
 import '../../../widget/base_network_image.dart';
 import '../../../widget/pull_smart_refresher.dart';
-import '../model/Topic_data_entity.dart';
-import '../model/Topic_entity.dart';
+import '../model/topic_data_entity.dart';
+import '../model/topic_entity.dart';
 
 ///专题页面
 // ignore: must_be_immutable

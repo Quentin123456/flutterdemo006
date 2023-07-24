@@ -4,8 +4,8 @@ import '../../../base/controller/base_refresh_controller.dart';
 import '../../../base/pageWidget/base_stateful_widget.dart';
 import '../../../http/apiservice/api_service.dart';
 import '../../../widget/pull_smart_refresher.dart';
-import '../../find_page/model/Focus_Entity.dart';
-import '../../find_page/model/Focus_Item_Entity.dart';
+import '../../find_page/model/focus_entity.dart';
+import '../../find_page/model/focus_item_entity.dart';
 import '../widget/item_rank_widget.dart';
 
 ///实际复用场景-热门-排行榜

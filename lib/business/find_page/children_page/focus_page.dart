@@ -5,8 +5,8 @@ import '../../../base/pageWidget/base_stateless_widget.dart';
 import '../../../http/apiservice/api_service.dart';
 import '../../../route/router_utils.dart';
 import '../../../widget/pull_smart_refresher.dart';
-import '../model/Focus_Entity.dart';
-import '../model/Focus_Item_Entity.dart';
+import '../model/focus_entity.dart';
+import '../model/focus_item_entity.dart';
 import '../widget/item_focus_outer_widget.dart';
 
 ///关注页面

@@ -6,8 +6,8 @@ import 'package:get/get_state_manager/src/rx_flutter/rx_obx_widget.dart';
 import '../../../base/component/base_component.dart';
 import '../../../base/controller/base_controller.dart';
 import '../../../http/apiservice/api_service.dart';
-import '../../find_page/model/Focus_Entity.dart';
-import '../../find_page/model/Focus_Item_Entity.dart';
+import '../../find_page/model/focus_entity.dart';
+import '../../find_page/model/focus_item_entity.dart';
 import 'item_video_detail_widget.dart';
 
 typedef ItemClickCallback = void Function(String title, String videoUrl);

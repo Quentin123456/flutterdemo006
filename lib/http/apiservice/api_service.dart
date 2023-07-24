@@ -1,9 +1,9 @@
 import 'package:dio/dio.dart';
 import 'package:retrofit/http.dart';
-import '../../business/find_page/model/Focus_Entity.dart';
-import '../../business/find_page/model/Topic_entity.dart';
-import '../../business/find_page/model/Type_entity.dart';
-import '../../business/home_page/model/Feed_entity.dart';
+import '../../business/find_page/model/focus_entity.dart';
+import '../../business/find_page/model/topic_entity.dart';
+import '../../business/find_page/model/type_entity.dart';
+import '../../business/home_page/model/feed_entity.dart';
 import '../../business/topic_detail/model/Topic_detail_entity.dart';
 import '../../constant/common_constant.dart';
 import '../../constant/http_url.dart';

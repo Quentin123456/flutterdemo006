@@ -1,6 +1,6 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'Header_entity.dart';
+part of 'header_entity.dart';
 
 // **************************************************************************
 // JsonSerializableGenerator
@@ -22,8 +22,9 @@ HeaderEntity _$HeaderEntityFromJson(Map<String, dynamic> json) => HeaderEntity(
       uid: json['uid'] as int?,
       ifShowNotificationIcon: json['ifShowNotificationIcon'] as bool?,
       expert: json['expert'] as bool?,
-      itemList:
-          (json['itemList'] as List<dynamic>?)?.map(ItemList.fromJson).toList(),
+      itemList: (json['itemList'] as List<dynamic>?)
+          ?.map((e) => ItemList.fromJson(e as Map<String, dynamic>))
+          .toList(),
     );
 
 Map<String, dynamic> _$HeaderEntityToJson(HeaderEntity instance) =>

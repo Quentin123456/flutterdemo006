@@ -1,6 +1,6 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'Focus_Data_entity.dart';
-part 'Focus_Item_Entity.g.dart';
+import 'focus_data_entity.dart';
+part 'focus_item_entity.g.dart';
 
 @JsonSerializable(explicitToJson: true)
 class FocusItemEntity {

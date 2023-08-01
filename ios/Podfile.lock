@@ -3,7 +3,7 @@ PODS:
   - connectivity_plus (0.0.1):
     - Flutter
     - ReachabilitySwift
-  - fijkplayer (0.10.1):
+  - fijkplayer (0.11.0):
     - BIJKPlayer (~> 0.7.16)
     - Flutter
   - Flutter (1.0.0)
@@ -85,7 +85,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   BIJKPlayer: 4c5d66e5cb99ae5bade6f22a4fcc031722a81c64
   connectivity_plus: 07c49e96d7fc92bc9920617b83238c4d178b446a
-  fijkplayer: 5ecf78e80cb97eed64cc170b094a4f691d9b9691
+  fijkplayer: 8b6d864948dc28e6e07248ed4fce61a7467db4df
   Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
   fluttertoast: fafc4fa4d01a6a9e4f772ecd190ffa525e9e2d9c
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a

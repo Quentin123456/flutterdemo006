@@ -231,9 +231,9 @@
     },
     {
       "name": "fijkplayer",
-      "rootUri": "file:///Users/quentinzang/.pub-cache/hosted/pub.flutter-io.cn/fijkplayer-0.10.1",
+      "rootUri": "file:///Users/quentinzang/.pub-cache/hosted/pub.flutter-io.cn/fijkplayer-0.11.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.14"
     },
     {
       "name": "file",
@@ -980,7 +980,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-07-25T01:17:05.245998Z",
+  "generated": "2023-08-01T08:24:57.526365Z",
   "generator": "pub",
   "generatorVersion": "3.0.0"
 }

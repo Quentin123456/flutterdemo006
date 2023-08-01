@@ -95,7 +95,7 @@ dependencies:
   #  轮播
   card_swiper: ^2.0.4
   #  播放器
-  fijkplayer: ^0.10.1
+  fijkplayer: ^0.11.0
   #Widget是否可见判断
   visibility_detector: ^0.4.0+2
   #  #虚线绘制
